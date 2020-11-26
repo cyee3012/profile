@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>chii's profile 🙆🏻‍♀️</title>
+    <meta name="description" content="chii's profile. autumn edition.">
+    <meta property="og:site_name" content="chii's profile. autumn edition">
+    <meta property="og:title" content="hello world. it's chii">
+    <meta property="og:description" content="hii's profile. autumn edition.">
+    <meta property="og:image" content="images/profilepic.jpg">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 style="font-size:7vw;">hello world. it's chii.</h1>
+        <img src="images/profilepic.jpg" id="img-profile" width="200px" alt="Chii Law">
+        <h2>i am a programmer</h2>
+        <p>Living in Tokyo. From the UK. Learning to code.</p>
+        <br>
+        <a href="https://www.youtube.com/watch?v=tqex4lP2LMs" class="button">click to smile</a>
+        <br>
+        <br>
+      </div>
+
+      <div class="card">
+        <h2>likes</h2>
+        <p>I like pandas, orange chocolate and naps.</p>
+        <img src="images/panda.jpeg" class="img-circle" alt="panda">
+        <img src="images/chocolate.jpeg" class="img-circle" alt="chocolate">
+        <img src="images/nap.jpeg" class="img-circle" alt="nap">
+      </div>
+
+      <div class="card">
+        <h2>dislikes</h2>
+        <p>I hate corriander. It tastes like soap.
+        <br>I won't even include a picture because I hate it so much.</p>
+        <a href="javascript:void(0)" class="button" onClick="toggleImage()">why coriander is bad</a>
+        <br>
+        <img src="images/coriander.png" id="img-coriander" class="hidden"/>
+        <br>
+      </div>
+
+      <div class="card">
+        <h2>my socials</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/cyee3012/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram" onClick="alert('please ask for my instgram in person.')"></i></a></li>
+          <li><a href="https://github.com/cyee3012/"><i class="fab fa-github-square"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+    function toggleImage(){
+    document.querySelector('#img-coriander').classList.toggle('hidden');
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+body {
+  background-color: white;
+  color: #3A0311;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 12px;
+}
+
+.container{
+  text-align: center;
+}
+
+#img-profile {
+  transition: opacity 1s;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+#img-profile:hover {
+  opacity: 0.9;
+}
+
+.img-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  opacity: 0.8;
+}
+
+.img-circle:hover {
+  opacity: 0.9;
+}
+
+
+h1 {
+  color: #4E0416;
+  font-family: 'Cedarville Cursive', sans-serif;
+  text-align: left;
+  padding-left: 15px;
+  line-height: 40px;
+}
+
+h2 {
+  color: #4E0416;
+  font-family: 'Cedarville Cursive', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: #141D0F;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+
+a {
+    color: #141D0F;
+}
+
+a:hover {
+  color: #880727;
+}
+
+ul {
+    display: block;
+    padding: 0;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+      display: inline-block;
+
+}
+.card {
+  background-color: #FDF9ED;
+  margin: 10px 30px;
+  padding: 5px 20px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #F4F5F4;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.button {
+  background-color: #890E06;
+  color: #FDF9ED;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #760C05;
+  color: #FDF9ED;
+  box-shadow: 1px 1px 1px #5D675B;
+}
+
+
+#img-coriander {
+    background-image: url("images/coriander.png");
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 5px;
+      box-shadow: 1px 1px 1px #EAECEA;
+
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 360px;
+  }
+}
